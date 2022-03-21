@@ -5,7 +5,7 @@ public class Cat extends Animal {
     public Cat(String id) {
         this.id = id;
         name = "Cat";
-        colour = "White";
+        colour = Colour.WHITE;
     }
 
     @Override

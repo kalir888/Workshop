@@ -6,7 +6,7 @@ public class Dog extends Animal {
     public Dog(String id) {
         this.id = id;
         name = "Dog";
-        colour = "White";
+        colour = Colour.WHITE;
     }
     @Override
     public void eat() {

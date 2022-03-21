@@ -5,7 +5,7 @@ public class Duck extends Bird {
     public Duck(String id) {
         this.id = id;
         name = "Duck";
-        colour = "White";
+        colour = Colour.WHITE;
     }
     @Override
     public void eat() {
