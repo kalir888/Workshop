@@ -1,7 +1,7 @@
 package com.bl.petmanagement;
 
 
-public class Dog extends Animal {
+public class Dog extends Animal implements Swimable {
 
     public Dog(String id) {
         this.id = id;
@@ -11,5 +11,10 @@ public class Dog extends Animal {
     @Override
     public void eat() {
         System.out.println("Dog eats meat");
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("Dog can Swim");
     }
 }

@@ -1,6 +1,6 @@
 package com.bl.petmanagement;
 
-public class Parrot extends Bird {
+public class Parrot extends Bird implements Flyable {
 
     public Parrot(String id) {
         this.id = id;
@@ -9,6 +9,12 @@ public class Parrot extends Bird {
     }
     @Override
     public void eat() {
+
         System.out.println("Parrot eats cereals");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Parrot can Fly");
     }
 }
